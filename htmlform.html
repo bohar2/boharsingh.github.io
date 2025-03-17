@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<style>
+    body {
+        display:block;
+       /* justify-content: center;
+        /* Center horizontally */
+       /* align-items: center;
+        /* Center vertically */
+      /*  height: 80vh; */
+        /* Full viewport height */
+        margin: 0;
+        /* Remove default margin */
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        /* Optional background color */
+    }
+
+    form {
+        width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        /* Optional shadow for better design */
+    }
+
+    div {
+        margin-bottom: 10px;
+        padding: 5px;
+        /* Spacing between input fields */
+    }
+</style>
+
+<body>
+
+    
+
+    <!-- using div tag -->
+    <form action="" method="post">
+        <div style="text-align:center;"><h3>HTML FORM</h3></div>
+       
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+        </div>
+
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+
+
+        <div>
+            <label> Courses</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+
+        <div>
+            <label> Hobbies</label><br>
+            <input type="checkbox" id="singing" name="hobby1" value="signing">
+            <label for="singing"> Singing</label><br>
+            <input type="checkbox" id="football" name="hobby2" value="football">
+            <label for="football"> Football</label><br>
+            <input type="checkbox" id="web" name="hobby3" value="Web Development">
+            <label for="web"> Web Development</label><br>
+
+        </div>
+        <div style="padding: 10px;">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+
+        <div style="padding: 10px;">
+            <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+        </div>
+
+    </form>
+
+
+    <form>
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+        </div>
+
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        
+    </form>
+
+</body>
+
+</html>
